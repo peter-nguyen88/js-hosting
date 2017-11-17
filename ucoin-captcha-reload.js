@@ -9,7 +9,7 @@ var correctCaptcha = function (t) {
     html.push('</div>');
     $(html.join('')).insertBefore('#google-check-bot');
     
-    console.log('this is custom script from github');
+    console.log('Reloading Captcha');
         
     refreshCaptcha();
     }
