@@ -8,8 +8,10 @@ var correctCaptcha = function (t) {
     html.push('<img class="img-captcha" src="" /><i class="fa fa-refresh refresh-captcha"></i></div>');
     html.push('</div>');
     $(html.join('')).insertBefore('#google-check-bot');
-     
-     refreshCaptcha();
+    
+    console.log('this is custom script from github');
+        
+    refreshCaptcha();
     }
 }
 
