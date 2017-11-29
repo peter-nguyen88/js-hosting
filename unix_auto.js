@@ -24,7 +24,7 @@ function prepareRequest(){
 	
 	function sendPostRequest(){
 		var datapost = {};
-		datapost.unx_amount = 500;
+		datapost.unx_amount = 100;
 		
 		$.ajax({
 			url: 'https://wake.unixcoin.com/ico',
